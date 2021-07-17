@@ -8,12 +8,12 @@ Below are screenshots of some of the features for reference.
 
 - Work Day Scheduler Homepage.
 
-  ![Work Day Scheduler Homepage](assets/images/pwdgenerator-initialpage.jpg)
+  ![Work Day Scheduler Homepage](assets/images/0.jpg)
 
 - Timeblocks will change depending on the hour of the day.
 
-  ![Timeblocks color](assets/images/prompt-pwd-length.jpg)
+  ![Timeblocks color](assets/images/1.jpg)
 
 ## Website
 
-https://andybuzzi.github.io/password-generator/
+https://andybuzzi.github.io/work-day-scheduler/
