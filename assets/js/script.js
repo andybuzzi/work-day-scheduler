@@ -140,14 +140,3 @@ Array.from(descriptions).forEach((description) => {
 function setColor(element, color) {
   element.style.backgroundColor = color;
 }
-
-// update btns
-for (i of btns) {
-  i.addEventListener("click", function () {
-    console.log(textArea.value);
-    console.log(i);
-  });
-}
-
-const textArea = $(".text-area").value;
-console.log(textArea);
