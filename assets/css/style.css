@@ -1,10 +1,10 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -21,11 +21,34 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
-  white-space: pre-wrap;
+table {
+  display: flex;
 }
 
-.time-block{
+tbody {
+  flex-basis: 100%;
+}
+.description {
+  display: flex;
+  white-space: pre-wrap;
+  border: #000000 solid 2px;
+  flex-basis: 80%;
+}
+
+.todo-form {
+  display: flex;
+}
+#text-area {
+  display: flex;
+  background: transparent;
+  width: 900px;
+  padding: 0 15px;
+  height: 75px;
+  border: none;
+  outline: none;
+}
+
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -33,13 +56,17 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  flex-basis: 10%;
+  padding: 5px;
+  text-align: right;
+  font-weight: bold;
 }
 
 .past {
@@ -57,15 +84,21 @@ textarea{
   color: white;
 }
 
-.saveBtn {
+#saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #06aed5;
   color: white;
+  flex-basis: 8%;
 }
 
-.saveBtn i:hover {
+#saveBtn i:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.fa-save:before {
+  text-align: center;
+  display: block;
+  width: 100px;
 }
